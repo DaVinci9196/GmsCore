@@ -78,6 +78,10 @@ private val CONFIGURATION_OPTIONS = mapOf(
     "com.google.android.apps.photos" to arrayOf(
         Flag("45617431", true, 0),
     ),
+    "com.google.android.apps.messaging#com.google.android.apps.messaging" to arrayOf(
+        Flag("bugle_phenotype__enable_penpal_conversation", true, 0),
+        Flag("bugle_phenotype__bug_325090692_enable_penpal_dasher_check", false, 0),
+    )
 )
 
 class PhenotypeServiceImpl(val packageName: String?) : IPhenotypeService.Stub() {
