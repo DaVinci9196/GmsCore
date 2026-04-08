@@ -213,7 +213,7 @@ private val KNOWN_GOOGLE_PACKAGES = mapOf(
 
     // YT Create
     Pair(
-        PackageAndCertHash("com.google.android.apps.youtube.producer", SHA1, "e64e926eeeb0e09ef4749b51720336c8976e87f1"),
+        PackageAndCertHash("com.google.android.apps.youtube.producer", SHA256, "5faeab9198730e9ef1f2312f742d66095632bffa7cc74f5d5c8280cb0b184e9d"),
         setOf(ACCOUNT, AUTH, OWNER)
     ),
 )
