@@ -44,7 +44,10 @@ private val CONFIGURATION_OPTIONS = mapOf(
         // Enable Gemini sharing and video features
         Flag("45638955", true, 0),
         Flag("45621205", true, 0),
-        Flag("45616812", true, 0)
+        Flag("45616812", true, 0),
+        // Enable Gemini NotebookLM in AttachmentMenuConfig
+        Flag("45715239", true, 0),
+        Flag("45713945", true, 0),
     ),
     "com.google.android.inputmethod.latin#com.google.android.inputmethod.latin" to arrayOf(
         // Enable Gboard supports voice input in other languages
